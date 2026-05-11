@@ -61,19 +61,33 @@ Y= A⊕B
 
 5.	For different input combinations generate the timing diagram.
 
-
-**PROGRAM**
-
 Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
- 
+```
+ Developed by: SHALINI D
+ RegisterNumber: 212225040398
+```
+**PROGRAM**
+```
+module exp1de(a,b,c,d,e,x,y,z);
+input a,b;
+output c,d,e,x,y,z;
+and (c,a,b);
+or (d,a,b);
+xor(e,a,b);
+nand(x,a,b);
+nor(y,a,b);
+xnor(z,a,b);
+endmodule
+```
 **Logic symbol & Truthtable**
-
-**RTL realization Output:** 
-
+![Output](exp1de.jpeg)
+ RTL realization Output:
+![output](exp1de2.png)
 **RTL**
+![output](exp1de3.png)
 
 **Result:**
-
+```
+Studied and verified the table of logic gates in QUARTUS II using Verilog programming succesfully
+```
 
